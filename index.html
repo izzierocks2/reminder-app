@@ -3,23 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reminder App</title>
     <link rel ="stylesheet" href="style.css"
 </head>
 <body>
+    <div class="top-bar">
+        <select>
+          <option>Screen 1</option>
+        </select>
+      </div>
+
     <div class = "whole-container">
-        <h1>RemindME</h1>
+        <h1>Reminder 2000</h1>
         <div class = "big-box">
             <div class = "screen"></div>
             <div class = "button-container">
                 <button type="button"><<</button>
+                <span>0</span>
                 <button type="button">>></button>
             </div>
-            <div class="input-container"><input type="text" id="input-field" name="name" size="10"/></div>
-                <button type="button">Add</button>
+            <div class = "input-button">
+                <div class="input-container"><input type="text" id="input-field" name="name" size="10"/></div>
+                <button type="button" id="add-button">Add</button>
+            </div>
+            <ul id="reminder-list"></ul>
+            
             
         </div>
         
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

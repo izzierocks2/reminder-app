@@ -2,8 +2,8 @@
     border: 2px solid;
     border-radius: 15px;
     width: 350px;
-    height: 350px;
-    background-color: gainsboro;
+    height: 300px;
+    background-color: white;
 }
 
 .button-container button{
@@ -14,6 +14,46 @@
     background-color: yellow;
 }
 
-.input-container{
+.input-button{
     display: flex;
+}
+
+h1 {
+    background-color: rgb(183, 3, 3);
+    display: block;
+    padding: 0 10px;
+    color: white;
+  }
+
+.whole-container{
+    background-color: rgb(240, 78, 78);
+    display: inline-block;
+    padding: 0 15px;
+    padding-bottom: 40px;
+}
+
+.button-container span{
+    margin: 0 10px;
+  }
+
+.top-bar{
+    background-color: rgb(188, 188, 188);
+    padding: 10px;
+    width: 100%;
+    max-width: 364px;
+}
+
+select{
+    width: 275px;
+}  
+
+button{
+    background-color: yellow;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+input[type="text"]{
+    width: 200px;
+    height: 20px;
 }
